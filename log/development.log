@@ -1,0 +1,1379 @@
+Started POST "/users" for 127.0.0.1 at 2019-06-09 12:38:40 +0530
+  
+NoMethodError (undefined method `has_attached_file' for User:Class):
+  
+app/models/user.rb:7:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started POST "/users" for 127.0.0.1 at 2019-06-09 12:41:08 +0530
+  
+NoMethodError (undefined method `has_attached_file' for User:Class):
+  
+app/models/user.rb:7:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started POST "/users" for 127.0.0.1 at 2019-06-09 12:42:16 +0530
+  
+NoMethodError (undefined method `has_attached_file' for User:Class):
+  
+app/models/user.rb:7:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started POST "/users" for 127.0.0.1 at 2019-06-09 12:43:29 +0530
+  
+NoMethodError (undefined method `has_attached_file' for User:Class):
+  
+app/models/user.rb:7:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started POST "/users" for 127.0.0.1 at 2019-06-09 12:43:53 +0530
+  
+NoMethodError (undefined method `has_attached_file' for User:Class):
+  
+app/models/user.rb:7:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started POST "/users" for 127.0.0.1 at 2019-06-09 12:43:53 +0530
+  
+NoMethodError (undefined method `has_attached_file' for User:Class):
+  
+app/models/user.rb:7:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started POST "/users" for 127.0.0.1 at 2019-06-09 12:45:02 +0530
+  
+NoMethodError (undefined method `has_attached_file' for User:Class):
+  
+app/models/user.rb:7:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started POST "/users" for 127.0.0.1 at 2019-06-09 12:45:25 +0530
+  
+NoMethodError (undefined method `has_attached_file' for User:Class):
+  
+app/models/user.rb:7:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+Started POST "/users" for 127.0.0.1 at 2019-06-09 13:06:02 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "user"=>{"name"=>"Test", "job_role"=>"admin", "email"=>"test@123.com"}}
+Completed 422 Unprocessable Entity in 127ms (Views: 0.8ms | MongoDB: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 13:07:10 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "user"=>{"name"=>"Test", "job_role"=>"admin", "email"=>"test@123.com"}}
+Completed 422 Unprocessable Entity in 16ms (Views: 1.0ms | MongoDB: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 13:07:32 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "user"=>{"name"=>"Test", "job_role"=>"admin", "email"=>"test@123.com"}}
+Completed 422 Unprocessable Entity in 5ms (Views: 0.2ms | MongoDB: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 13:09:37 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "user"=>{"name"=>"Test", "job_role"=>"admin", "email"=>"test@123.com"}}
+Completed 422 Unprocessable Entity in 10ms (Views: 0.3ms | MongoDB: 0.0ms)
+
+
+Started POST "/company" for 127.0.0.1 at 2019-06-09 13:34:16 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/company"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 13:34:23 +0530
+  
+SyntaxError (/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      render :json company, :status 200
+                   ^~~~~~~
+/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+...nder :json company, :status 200
+...                            ^~~
+/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:45: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...any).permit(:name, :address, :)
+...                              ^):
+  
+app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+app/controllers/companies_controller.rb:45: syntax error, unexpected ')', expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 13:35:08 +0530
+  
+SyntaxError (/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      render :json company, :status 200
+                   ^~~~~~~
+/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+...nder :json company, :status 200
+...                            ^~~):
+  
+app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 13:35:54 +0530
+  
+SyntaxError (/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      render :json company, :status 200
+                   ^~~~~~~
+/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+...nder :json company, :status 200
+...                            ^~~):
+  
+app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 13:36:32 +0530
+  
+SyntaxError (/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      render :json company, :status 200
+                   ^~~~~~~
+/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+...nder :json company, :status 200
+...                            ^~~):
+  
+app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 13:37:54 +0530
+  
+SyntaxError (/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      render :json company, :status 200
+                   ^~~~~~~
+/home/aarush/pratilipi/profiler/app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+...nder :json company, :status 200
+...                            ^~~):
+  
+app/controllers/companies_controller.rb:21: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/controllers/companies_controller.rb:21: syntax error, unexpected tINTEGER, expecting &. or :: or '[' or '.'
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 13:38:13 +0530
+Processing by CompaniesController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "company"=>{"name"=>"Test"}}
+Completed 500 Internal Server Error in 127ms (MongoDB: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `user_params' for #<CompaniesController:0x0000559a5b2b7e38>
+Did you mean?  user_path):
+  
+app/controllers/companies_controller.rb:18:in `create'
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 13:38:31 +0530
+Processing by CompaniesController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "company"=>{"name"=>"Test"}}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x47060725422600 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x70131749938040 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-06-09 08:08:31 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>7, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.490852861>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | profiler_development.insert | STARTED | {"insert"=>"companies", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x70131413718940 type=uuid data=0x68201b3c8c0944bd...>}, "documents"=>[{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b'), "total_views"=>0, "unique_views"=>0, "name"=>"Test"}]}
+MONGODB | localhost:27017 | profiler_development.insert | SUCCEEDED | 0.902s
+Completed 200 OK in 1419ms (Views: 0.5ms | MongoDB: 0.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 13:42:19 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user"=>{"name"=>"Test", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+Unpermitted parameter: :company_id
+Completed 422 Unprocessable Entity in 127ms (Views: 0.2ms | MongoDB: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 13:43:21 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user"=>{"name"=>"Test", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+Unpermitted parameter: :company_id
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x70131413718940 type=uuid data=0x68201b3c8c0944bd...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.041s
+Completed 422 Unprocessable Entity in 65ms (Views: 0.2ms | MongoDB: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 13:52:55 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user"=>{"name"=>"Test", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+Unpermitted parameter: :company_id
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x70131413718940 type=uuid data=0x68201b3c8c0944bd...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+Completed 422 Unprocessable Entity in 6ms (Views: 0.2ms | MongoDB: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 13:57:10 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user"=>{"name"=>"Test", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+Unpermitted parameter: :company_id
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x70131413718940 type=uuid data=0x68201b3c8c0944bd...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 422 Unprocessable Entity in 213ms (Views: 0.2ms | MongoDB: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 14:00:01 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user"=>{"name"=>"Test", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+Unpermitted parameter: :company_id
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x70131413718940 type=uuid data=0x68201b3c8c0944bd...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 422 Unprocessable Entity in 230ms (Views: 0.2ms | MongoDB: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 16:30:10 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user"=>{"name"=>"Test", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+Unpermitted parameter: :company_id
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x47060725251640 type=uuid data=0x17056f2270d24f0f...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.732s
+Completed 422 Unprocessable Entity in 1093ms (Views: 46.2ms | MongoDB: 0.7ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 17:52:51 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user"=>{"name"=>"Test", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+Unpermitted parameter: :company_id
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x47039687172720 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47039687055400 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-06-09 12:22:51 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>7, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.038925331>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x47039687003680 type=uuid data=0xc4e4d0c2eebe41c6...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.038s
+Completed 422 Unprocessable Entity in 146ms (Views: 0.2ms | MongoDB: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2019-06-09 17:54:02 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user"=>{"name"=>"Test", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+Unpermitted parameter: :company_id
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x47039687003680 type=uuid data=0xc4e4d0c2eebe41c6...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x47039687003680 type=uuid data=0xc4e4d0c2eebe41c6...>}, "documents"=>[{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95'), "name"=>"Test", "email"=>"test@123.com", "company_id"=>BSON::O...
+MONGODB | localhost:27017 | profiler_development.insert | SUCCEEDED | 0.362s
+Completed 200 OK in 655ms (Views: 0.4ms | MongoDB: 0.4ms)
+
+
+Started POST "/user/login?email=test@123.com&passowrd=123" for 127.0.0.1 at 2019-06-09 18:12:40 +0530
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:5:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started POST "/user/login?email=test@123.com&passowrd=123" for 127.0.0.1 at 2019-06-09 18:12:58 +0530
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:5:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started POST "/user/login?email=test@123.com&passowrd=123" for 127.0.0.1 at 2019-06-09 18:13:24 +0530
+  
+NoMethodError (undefined method `put' for main:Object
+Did you mean?  puts
+               putc):
+  
+config/routes.rb:7:in `<top (required)>'
+Started PUT "/user/login?email=test@123.com&passowrd=123" for 127.0.0.1 at 2019-06-09 18:14:22 +0530
+  
+ActionController::RoutingError (No route matches [PUT] "/user/login"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/user/login?email=test@123.com&passowrd=123" for 127.0.0.1 at 2019-06-09 18:14:41 +0530
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:5:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started PUT "/user/login?email=test@123.com&passowrd=123" for 127.0.0.1 at 2019-06-09 18:15:38 +0530
+Processing by UsersController#login as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "passowrd"=>"123", "user"=>{"name"=>"Test", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"test@123.com"}, "lsid"=>{"id"=><BSON::Binary:0x47039687003680 type=uuid data=0xc4e4d0c2eebe41c6...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.293s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x47039687003680 type=uuid data=0xc4e4d0c2eebe41c6...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.update | STARTED | {"update"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x47039687003680 type=uuid data=0xc4e4d0c2eebe41c6...>}, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "u"=>{"$set"=>{"auth_token"=>"r3fldUzVohA=", "auth_expiry...
+MONGODB | localhost:27017 | profiler_development.update | SUCCEEDED | 0.063s
+Completed 200 OK in 887ms (Views: 0.5ms | MongoDB: 0.4ms)
+
+
+Started GET "/user" for 127.0.0.1 at 2019-06-09 18:38:38 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/user"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users" for 127.0.0.1 at 2019-06-09 18:38:46 +0530
+Processing by UsersController#index as */*
+  Parameters: {"user"=>{}}
+  Rendering users/index.json.jbuilder
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47039687003680 type=uuid data=0xc4e4d0c2eebe41c6...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.282s
+  Rendered users/_user.json.jbuilder (53.4ms)
+  Rendered users/index.json.jbuilder (377.3ms)
+Completed 500 Internal Server Error in 469ms (MongoDB: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `created_at' for #<User:0x00005590902c4338>
+Did you mean?  create_relation):
+    1: json.extract! user, :id, :name, :job_role, :created_at, :updated_at
+    2: json.url user_url(user, format: :json)
+  
+app/views/users/_user.json.jbuilder:1:in `_app_views_users__user_json_jbuilder__1025607057532855181_47039692386940'
+app/views/users/index.json.jbuilder:1:in `_app_views_users_index_json_jbuilder___3646242124970775130_47039691533600'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 18:41:01 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_key"=>"r3fldUzVohA="}, "lsid"=>{"id"=><BSON::Binary:0x47039687003680 type=uuid data=0xc4e4d0c2eebe41c6...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.093s
+Completed 404 Not Found in 209ms (MongoDB: 0.1ms)
+
+
+  
+Mongoid::Errors::DocumentNotFound (
+message:
+  Document not found for class User with attributes {:auth_key=>"r3fldUzVohA="}.
+summary:
+  When calling User.find_by with a hash of attributes, all attributes provided must match a document in the database or this error will be raised.
+resolution:
+  Search for attributes that are in the database or set the Mongoid.raise_not_found_error configuration option to false, which will cause a nil to be returned instead of raising this error.):
+  
+app/controllers/application_controller.rb:4:in `current_user'
+app/controllers/users_controller.rb:24:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 18:42:11 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+Completed 500 Internal Server Error in 5ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expiry_time' for #<Mongoid::Criteria:0x000055908f7c18f0>):
+  
+app/controllers/application_controller.rb:5:in `current_user'
+app/controllers/users_controller.rb:24:in `show1'
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x47039687003680 type=uuid data=0xc4e4d0c2eebe41c6...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.021s
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 18:44:15 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+Completed 500 Internal Server Error in 9ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expiry_time' for #<Mongoid::Criteria:0x000055a7ee02c448>):
+  
+app/controllers/application_controller.rb:5:in `current_user'
+app/controllers/users_controller.rb:24:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 18:46:19 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+Completed 500 Internal Server Error in 5ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_key' for #<Mongoid::Criteria:0x000055866b1c7450>):
+  
+app/controllers/application_controller.rb:5:in `current_user'
+app/controllers/users_controller.rb:24:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 18:50:52 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x69814559831440 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47017920408700 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-06-09 13:20:52 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>7, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.020063297>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_key"=>"r3fldUzVohA="}, "lsid"=>{"id"=><BSON::Binary:0x69814357871700 type=uuid data=0x2a3718681b8541e6...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 55ms (Views: 54.6ms | MongoDB: 0.0ms)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 18:56:07 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_key"=>"r3fldUzVohA="}, "lsid"=>{"id"=><BSON::Binary:0x69814357871700 type=uuid data=0x2a3718681b8541e6...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 2ms (Views: 2.1ms | MongoDB: 0.0ms)
+
+
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x69814357871700 type=uuid data=0x2a3718681b8541e6...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started POST "/user" for 127.0.0.1 at 2019-06-09 19:14:58 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/prolie" for 127.0.0.1 at 2019-06-09 19:15:07 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/user/prolie"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 19:15:10 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x46912724656160 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x46912724864080 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-06-09 13:45:10 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>7, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.019986528>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"r3fldUzVohA="}, "lsid"=>{"id"=><BSON::Binary:0x46912725131440 type=uuid data=0xea79b974397942f2...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 34ms (Views: 33.3ms | MongoDB: 0.0ms)
+
+
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/comapny/5cfcbe7fa4e2bd457446dd9b" for 127.0.0.1 at 2019-06-09 20:03:51 +0530
+  
+ActionController::RoutingError (uninitialized constant ComapnyController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b" for 127.0.0.1 at 2019-06-09 20:04:13 +0530
+  
+ActionController::RoutingError (No route matches [PUT] "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b" for 127.0.0.1 at 2019-06-09 20:04:21 +0530
+  
+ActionController::RoutingError (uninitialized constant CompanyController):
+  
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `block in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:79:in `rescue in load_missing_constant'
+bootsnap (1.4.4) lib/bootsnap/load_path_cache/core_ext/active_support.rb:58:in `load_missing_constant'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b" for 127.0.0.1 at 2019-06-09 20:04:38 +0530
+Processing by CompaniesController#view_company as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user_id"=>"5cfcfa63a4e2bd161cbaff95", "company"=>{"name"=>"Test"}}
+Completed 500 Internal Server Error in 124ms (MongoDB: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `param' for #<CompaniesController:0x00007fa5c008d190>
+Did you mean?  params
+               params=):
+  
+app/controllers/companies_controller.rb:10:in `view_company'
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b" for 127.0.0.1 at 2019-06-09 20:04:56 +0530
+Processing by CompaniesController#view_company as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user_id"=>"5cfcfa63a4e2bd161cbaff95", "company"=>{"name"=>"Test"}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "lsid"=>{"id"=><BSON::Binary:0x70174699521520 type=uuid data=0xc9bdc7be764a4d7f...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 19ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `company' for User:Class):
+  
+app/controllers/companies_controller.rb:11:in `view_company'
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b" for 127.0.0.1 at 2019-06-09 20:05:27 +0530
+Processing by CompaniesController#view_company as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user_id"=>"5cfcfa63a4e2bd161cbaff95", "company"=>{"name"=>"Test"}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "lsid"=>{"id"=><BSON::Binary:0x70174699521520 type=uuid data=0xc9bdc7be764a4d7f...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x70174699521520 type=uuid data=0xc9bdc7be764a4d7f...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 111ms (MongoDB: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `redis' for #<CompaniesController:0x00005555709f2818>):
+  
+app/controllers/companies_controller.rb:16:in `view_company'
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b" for 127.0.0.1 at 2019-06-09 20:14:37 +0530
+Processing by CompaniesController#view_company as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user_id"=>"5cfcfa63a4e2bd161cbaff95", "company"=>{"name"=>"Test"}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "lsid"=>{"id"=><BSON::Binary:0x70174699521520 type=uuid data=0xc9bdc7be764a4d7f...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x70174699521520 type=uuid data=0xc9bdc7be764a4d7f...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 12ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `get' for nil:NilClass
+Did you mean?  gem):
+  
+app/controllers/companies_controller.rb:16:in `view_company'
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70174699521520 type=uuid data=0xc9bdc7be764a4d7f...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b" for 127.0.0.1 at 2019-06-09 20:15:04 +0530
+Processing by CompaniesController#view_company as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user_id"=>"5cfcfa63a4e2bd161cbaff95", "company"=>{"name"=>"Test"}}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x47401932762740 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47401932795220 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-06-09 14:45:04 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>7, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.00244491>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "lsid"=>{"id"=><BSON::Binary:0x47401932894360 type=uuid data=0x51ba965d22ef4998...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x47401932894360 type=uuid data=0x51ba965d22ef4998...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 25ms (MongoDB: 0.0ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/controllers/companies_controller.rb:16:in `view_company'
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x47401932894360 type=uuid data=0x51ba965d22ef4998...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b" for 127.0.0.1 at 2019-06-09 20:20:09 +0530
+Processing by CompaniesController#view_company as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user_id"=>"5cfcfa63a4e2bd161cbaff95", "company"=>{"name"=>"Test"}}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x47203157509420 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47203157586560 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-06-09 14:50:09 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>7, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001289092>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "lsid"=>{"id"=><BSON::Binary:0x47203157726120 type=uuid data=0xc3e7b9f144044392...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x47203157726120 type=uuid data=0xc3e7b9f144044392...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 26ms (MongoDB: 0.0ms)
+
+
+  
+Redis::CannotConnectError (Error connecting to Redis on localhost:6379 (Errno::ECONNREFUSED)):
+  
+app/controllers/companies_controller.rb:12:in `view_company'
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 20:20:14 +0530
+Processing by CompaniesController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "company"=>{"name"=>"Test"}}
+MONGODB | localhost:27017 | profiler_development.insert | STARTED | {"insert"=>"companies", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x47203157726120 type=uuid data=0xc3e7b9f144044392...>}, "documents"=>[{"_id"=>BSON::ObjectId('5cfd1ca6a4e2bd3d69d5c8eb'), "total_views"=>0, "unique_views"=>0, "name"=>"Test"}]}
+MONGODB | localhost:27017 | profiler_development.insert | SUCCEEDED | 0.000s
+Completed 200 OK in 121ms (Views: 0.4ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/login?email=test@123.com&password=[FILTERED]" for 127.0.0.1 at 2019-06-09 20:59:40 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/login"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/user/login?email=test@123.com&password=[FILTERED]" for 127.0.0.1 at 2019-06-09 20:59:58 +0530
+Processing by UsersController#login as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "user"=>{"name"=>"Test", "job_role"=>"admin", "email"=>"test@123.com"}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"test@123.com"}, "lsid"=>{"id"=><BSON::Binary:0x47203159447380 type=uuid data=0xd2303103ba684cd2...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x47203159447380 type=uuid data=0xd2303103ba684cd2...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.update | STARTED | {"update"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x47203159447380 type=uuid data=0xd2303103ba684cd2...>}, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "u"=>{"$set"=>{"auth_token"=>"lttz0JMTGHM=", "auth_expiry...
+MONGODB | localhost:27017 | profiler_development.update | SUCCEEDED | 0.000s
+Completed 200 OK in 325ms (Views: 0.9ms | MongoDB: 0.0ms)
+
+
+Started PUT "/user/proflie" for 127.0.0.1 at 2019-06-09 21:00:26 +0530
+  
+ActionController::RoutingError (No route matches [PUT] "/user/proflie"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/proflie" for 127.0.0.1 at 2019-06-09 21:00:33 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/user/proflie"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:00:39 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `get' for nil:NilClass
+Did you mean?  gem):
+  
+app/controllers/users_controller.rb:23:in `show1'
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x47203159447380 type=uuid data=0xd2303103ba684cd2...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:02:31 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+Completed 500 Internal Server Error in 11ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expir_time' for #<Mongoid::Criteria:0x000055e5a33ea498>):
+  
+app/controllers/application_controller.rb:5:in `current_user'
+app/controllers/users_controller.rb:26:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:03:44 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+Completed 500 Internal Server Error in 5ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expiry_time' for #<Mongoid::Criteria:0x00007f8a70141138>):
+  
+app/controllers/application_controller.rb:5:in `current_user'
+app/controllers/users_controller.rb:26:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:07:53 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x47265983538560 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x47265984221660 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-06-09 15:37:53 UTC, "logicalSessionTimeoutMinutes"=>30, "minWireVersion"=>0, "maxWireVersion"=>7, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.001341495>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.002s
+Completed 500 Internal Server Error in 23ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expiry_time' for #<Mongoid::Criteria:0x000055f9efe9ebe0>):
+  
+app/controllers/users_controller.rb:27:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:09:59 +0530
+  
+SyntaxError (/home/aarush/pratilipi/profiler/app/controllers/users_controller.rb:28: syntax error, unexpected '=', expecting keyword_end
+    =begin
+    ^
+/home/aarush/pratilipi/profiler/app/controllers/users_controller.rb:35: syntax error, unexpected '=', expecting keyword_end
+    =end
+    ^
+/home/aarush/pratilipi/profiler/app/controllers/users_controller.rb:55: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/users_controller.rb:28: syntax error, unexpected '=', expecting keyword_end
+app/controllers/users_controller.rb:35: syntax error, unexpected '=', expecting keyword_end
+app/controllers/users_controller.rb:55: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:10:29 +0530
+  
+SyntaxError (/home/aarush/pratilipi/profiler/app/controllers/users_controller.rb:28: syntax error, unexpected '=', expecting keyword_end
+    =begin
+    ^
+/home/aarush/pratilipi/profiler/app/controllers/users_controller.rb:35: syntax error, unexpected '=', expecting keyword_end
+    =end
+    ^
+/home/aarush/pratilipi/profiler/app/controllers/users_controller.rb:55: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/users_controller.rb:28: syntax error, unexpected '=', expecting keyword_end
+app/controllers/users_controller.rb:35: syntax error, unexpected '=', expecting keyword_end
+app/controllers/users_controller.rb:55: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:10:41 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 3ms (Views: 3.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:11:38 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 6ms (Views: 2.5ms | MongoDB: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/users_controller.rb:28:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:11:57 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+Completed 500 Internal Server Error in 10ms (Views: 3.9ms | MongoDB: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/users_controller.rb:28:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:12:12 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 14ms (Views: 5.4ms | MongoDB: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/users_controller.rb:28:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:12:18 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 12ms (Views: 4.5ms | MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expiry_time' for #<Mongoid::Criteria:0x00007ff5f83946a8>):
+  
+app/controllers/users_controller.rb:28:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:12:43 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+Completed 500 Internal Server Error in 13ms (Views: 4.0ms | MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expiry_time' for #<Mongoid::Criteria:0x00007ff5f82f4338>):
+  
+app/controllers/users_controller.rb:28:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:13:51 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 9ms (Views: 2.2ms | MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expiry_time' for #<Mongoid::Criteria:0x000055f9f1edce70>):
+  
+app/controllers/users_controller.rb:28:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:14:29 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 11ms (Views: 2.4ms | MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expiry_time' for #<Mongoid::Criteria:0x00007ff5fc123848>):
+  
+app/controllers/users_controller.rb:28:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:14:44 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+[{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95'), "auth_expiry_time"=>2019-06-09 16:29:58 UTC, "auth_token"=>"lttz0JMTGHM=", "company_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b'), "email"=>"test@123.com", "image_content_type"=>nil, "image_file_name"=>nil, "image_file_size"=>nil, "image_fingerprint"=>nil, "image_updated_at"=>nil, "job_role"=>nil, "name"=>"Test", "password_digest"=>"$2a$12$IZUtgmNBxGBgHoN7pFIEG.jfmqkoniyzv1bKzDEARwO4PnwSxiape"}]
+Completed 200 OK in 6ms (Views: 3.2ms | MongoDB: 0.0ms)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:15:26 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+2019-06-09 16:29:58 UTC
+Completed 200 OK in 3ms (Views: 0.4ms | MongoDB: 0.0ms)
+
+
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:15:46 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 9ms (Views: 2.6ms | MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `auth_expiry_time' for #<Mongoid::Criteria:0x00007ff5f817aa20>):
+  
+app/controllers/users_controller.rb:29:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:16:07 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+Completed 500 Internal Server Error in 6ms (Views: 0.8ms | MongoDB: 0.0ms)
+
+
+  
+Redis::CommandError (ERR value is not an integer or out of range):
+  
+app/controllers/users_controller.rb:28:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:16:34 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+Completed 500 Internal Server Error in 9ms (Views: 3.6ms | MongoDB: 0.0ms)
+
+
+  
+Redis::CommandError (ERR value is not an integer or out of range):
+  
+app/controllers/users_controller.rb:28:in `show1'
+Started GET "/user/profile" for 127.0.0.1 at 2019-06-09 21:17:22 +0530
+Processing by UsersController#show1 as */*
+  Parameters: {"user"=>{}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"auth_token"=>"lttz0JMTGHM="}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 407 Proxy Authentication Required in 2ms (Views: 0.2ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/" for 127.0.0.1 at 2019-06-09 21:31:46 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/users/" for 127.0.0.1 at 2019-06-09 21:31:53 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "user"=>{"name"=>"Test", "job_role"=>"admin", "email"=>"test@123.com"}}
+Completed 500 Internal Server Error in 235ms (MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::InvalidFind (
+message:
+  Calling Document.find with nil is invalid.
+summary:
+  Document.find expects the parameters to be 1 or more ids, and will return a single document if 1 id is provided, otherwise an array of documents if multiple ids are provided.
+resolution:
+  Most likely this is caused by passing parameters directly through to the find, and the parameter either is not present or the key from which it is accessed is incorrect.):
+  
+app/controllers/users_controller.rb:38:in `create'
+Started POST "/users/" for 127.0.0.1 at 2019-06-09 21:32:53 +0530
+Processing by UsersController#create as */*
+  Parameters: {"name"=>"Test", "email"=>"test@123.com", "password"=>"[FILTERED]", "job_role"=>"admin", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "user"=>{"name"=>"Test", "job_role"=>"admin", "email"=>"test@123.com", "company_id"=>"5cfcbe7fa4e2bd457446dd9b"}}
+Unpermitted parameter: :company_id
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.018s
+MONGODB | localhost:27017 | profiler_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}, "documents"=>[{"_id"=>BSON::ObjectId('5cfd2dada4e2bd46cd0438c6'), "name"=>"Test", "job_role"=>"admin", "email"=>"test@123.com", ...
+MONGODB | localhost:27017 | profiler_development.insert | SUCCEEDED | 0.000s
+Completed 200 OK in 540ms (Views: 0.4ms | MongoDB: 0.0ms)
+
+
+Started PUT "/user/login?email=test@123.com&passowrd=123" for 127.0.0.1 at 2019-06-09 21:38:13 +0530
+Processing by UsersController#login as */*
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x00007ff5f852a418 @tempfile=#<Tempfile:/tmp/RackMultipart20190609-18125-etifh2.rb>, @original_filename="routes.rb", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"routes.rb\"\r\nContent-Type: application/octet-stream\r\n">, "jc,jsdkjfk"=>"jkjhksjd", "email"=>"test@123.com", "passowrd"=>"123"}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"test@123.com"}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.086s
+Completed 422 Unprocessable Entity in 382ms (Views: 0.3ms | MongoDB: 0.1ms)
+
+
+Started PUT "/user/login?email=test@123.com&password=[FILTERED]" for 127.0.0.1 at 2019-06-09 21:38:23 +0530
+Processing by UsersController#login as */*
+  Parameters: {"image"=>#<ActionDispatch::Http::UploadedFile:0x00007ff5f84d3cd0 @tempfile=#<Tempfile:/tmp/RackMultipart20190609-18125-jur3qi.rb>, @original_filename="routes.rb", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"image\"; filename=\"routes.rb\"\r\nContent-Type: application/octet-stream\r\n">, "jc,jsdkjfk"=>"jkjhksjd", "email"=>"test@123.com", "password"=>"[FILTERED]"}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"test@123.com"}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.update | STARTED | {"update"=>"users", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "u"=>{"$set"=>{"auth_token"=>"AfLMPLZrrLY=", "auth_expiry...
+MONGODB | localhost:27017 | profiler_development.update | SUCCEEDED | 0.054s
+Completed 200 OK in 360ms (Views: 0.5ms | MongoDB: 0.1ms)
+
+
+Started PUT "/company" for 127.0.0.1 at 2019-06-09 21:43:06 +0530
+  
+ActionController::RoutingError (No route matches [PUT] "/company"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/company" for 127.0.0.1 at 2019-06-09 21:43:12 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/company"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 21:43:20 +0530
+Processing by CompaniesController#create as */*
+Completed 400 Bad Request in 0ms (MongoDB: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: company):
+  
+app/controllers/companies_controller.rb:43:in `company_params'
+app/controllers/companies_controller.rb:32:in `create'
+Started POST "/companies" for 127.0.0.1 at 2019-06-09 21:44:11 +0530
+Processing by CompaniesController#create as */*
+  Parameters: {"name"=>"Test", "address"=>"dfadf", "company"=>{"name"=>"Test", "address"=>"dfadf"}}
+MONGODB | localhost:27017 | profiler_development.insert | STARTED | {"insert"=>"companies", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}, "documents"=>[{"_id"=>BSON::ObjectId('5cfd3053a4e2bd46cd0438c7'), "total_views"=>0, "unique_views"=>0, "name"=>"Test", "addr...
+MONGODB | localhost:27017 | profiler_development.insert | SUCCEEDED | 0.001s
+Completed 200 OK in 8ms (Views: 0.6ms | MongoDB: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2019-06-09 21:53:04 +0530
+Processing by UsersController#index as */*
+Completed 500 Internal Server Error in 105ms (MongoDB: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `user' for #<UsersController:0x00007ff5f8053980>
+Did you mean?  users):
+  
+app/controllers/users_controller.rb:5:in `index'
+Started GET "/users" for 127.0.0.1 at 2019-06-09 21:53:26 +0530
+Processing by UsersController#index as */*
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 200 OK in 26ms (Views: 2.7ms | MongoDB: 0.0ms)
+
+
+Started POST "/user/5cfcfa63a4e2bd161cbaff95/comapny/5cfcbe7fa4e2bd457446dd9b/" for 127.0.0.1 at 2019-06-09 21:53:46 +0530
+  
+ActionController::RoutingError (No route matches [POST] "/user/5cfcfa63a4e2bd161cbaff95/comapny/5cfcbe7fa4e2bd457446dd9b"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/5cfcfa63a4e2bd161cbaff95/comapny/5cfcbe7fa4e2bd457446dd9b/" for 127.0.0.1 at 2019-06-09 21:53:52 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/user/5cfcfa63a4e2bd161cbaff95/comapny/5cfcbe7fa4e2bd457446dd9b"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b/" for 127.0.0.1 at 2019-06-09 21:54:21 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b/" for 127.0.0.1 at 2019-06-09 21:55:32 +0530
+Processing by CompaniesController#view_company as */*
+  Parameters: {"name"=>"Test", "address"=>"dfadf", "user_id"=>"5cfcfa63a4e2bd161cbaff95", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "company"=>{"name"=>"Test", "address"=>"dfadf"}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 139ms (MongoDB: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `comapny' for #<CompaniesController:0x000055f9f1b9ea38>
+Did you mean?  company):
+  
+app/controllers/companies_controller.rb:14:in `view_company'
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b/" for 127.0.0.1 at 2019-06-09 21:56:05 +0530
+Processing by CompaniesController#view_company as */*
+  Parameters: {"name"=>"Test", "address"=>"dfadf", "user_id"=>"5cfcfa63a4e2bd161cbaff95", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "company"=>{"name"=>"Test", "address"=>"dfadf"}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+Completed 500 Internal Server Error in 116ms (MongoDB: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `comapny' for #<CompaniesController:0x00007ff5f84c4208>
+Did you mean?  company):
+  
+app/controllers/companies_controller.rb:14:in `view_company'
+Started PUT "/user/5cfcfa63a4e2bd161cbaff95/company/5cfcbe7fa4e2bd457446dd9b/" for 127.0.0.1 at 2019-06-09 21:56:19 +0530
+Processing by CompaniesController#view_company as */*
+  Parameters: {"name"=>"Test", "address"=>"dfadf", "user_id"=>"5cfcfa63a4e2bd161cbaff95", "company_id"=>"5cfcbe7fa4e2bd457446dd9b", "company"=>{"name"=>"Test", "address"=>"dfadf"}}
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5cfcfa63a4e2bd161cbaff95')}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.find | STARTED | {"find"=>"companies", "filter"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}}
+MONGODB | localhost:27017 | profiler_development.find | SUCCEEDED | 0.000s
+MONGODB | localhost:27017 | profiler_development.update | STARTED | {"update"=>"companies", "ordered"=>true, "lsid"=>{"id"=><BSON::Binary:0x47265983703020 type=uuid data=0xb52be7d16cbe47d9...>}, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5cfcbe7fa4e2bd457446dd9b')}, "u"=>{"$set"=>{"unique_views"=>1, "total_views"=>1}},...
+MONGODB | localhost:27017 | profiler_development.update | SUCCEEDED | 0.001s
+Completed 200 OK in 26ms (Views: 0.5ms | MongoDB: 0.0ms)
+
+
